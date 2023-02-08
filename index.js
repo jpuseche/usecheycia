@@ -6,7 +6,7 @@ const port = 3000;
 app.use(express.static('public'))
 
 app.get('/', function (req, res) {
-    res.sendFile('views/index.html', {root: __dirname});
+    res.sendFile('views/home.html', {root: __dirname});
   })
 
 app.listen(port, () => {
