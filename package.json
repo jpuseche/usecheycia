@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://jpuseche.github.io/usecheycia/",
   "scripts": {
     "start": "node index.js",
-    "predeploy": "npm run .",
     "deploy": "gh-pages -d ."
   },
   "author": "",
@@ -14,9 +12,7 @@
   "dependencies": {
     "bootstrap": "^3.4.1",
     "express": "^4.18.2",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.6.3"
-  },
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
   }
 }
