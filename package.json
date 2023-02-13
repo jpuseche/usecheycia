@@ -5,13 +5,14 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d ."
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bootstrap": "^3.4.1",
     "express": "^4.18.2",
+    "gh-pages": "^5.0.0",
     "jquery": "^3.6.3"
   }
 }
