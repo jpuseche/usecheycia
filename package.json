@@ -6,8 +6,8 @@
   "homepage": "https://jpuseche.github.io/usecheycia/",
   "scripts": {
     "start": "node index.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "predeploy": "npm run .",
+    "deploy": "gh-pages -d ."
   },
   "author": "",
   "license": "ISC",
