@@ -23,6 +23,32 @@ class Header extends HTMLElement {
     }
 }
 
+class Modal extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <div class="portfolio-modal modal fade" id=${this.getAttribute("modal-id")} tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase text-center">${this.getAttribute("modal-title")}</h2>
+                                    <img class="img-fluid d-block mx-auto modal-image" src="${this.getAttribute("modal-image")}" alt="..." />
+                                    ${this.getAttribute("modal-data")}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        `;
+    }
+}
+
 var today = new Date();
 var year = today.getFullYear();
 class Footer extends HTMLElement {
@@ -34,7 +60,7 @@ class Footer extends HTMLElement {
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Useche & cia `+ year +`</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/usecheycompania/?igshid=NmE0MzVhZDY%3D" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                     <div class="col-lg-4 text-lg-end">
@@ -95,4 +121,5 @@ window.addEventListener('DOMContentLoaded', event => {
 });
 
 customElements.define('main-header', Header);
+customElements.define('main-modal', Modal);
 customElements.define('main-footer', Footer);
