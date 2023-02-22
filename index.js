@@ -17,13 +17,13 @@ app.get('/products', function (req, res) {
   res.sendFile('views/products.html', {root: __dirname});
 })
 
-app.get('/about-us', function (req, res) {
-  res.sendFile('views/about_us.html', {root: __dirname});
-})
+// app.get('/about-us', function (req, res) {
+//   res.sendFile('views/about_us.html', {root: __dirname});
+// })
 
-app.get('/contact', function (req, res) {
-  res.sendFile('views/contact.html', {root: __dirname});
-})
+// app.get('/contact', function (req, res) {
+//   res.sendFile('views/contact.html', {root: __dirname});
+// })
 
 app.listen(port, () => {
     console.log(`Now listening on port ${port}`);

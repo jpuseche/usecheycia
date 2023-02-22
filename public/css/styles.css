@@ -3022,41 +3022,40 @@ textarea.form-control-lg {
 }
 .btn-check:focus + .btn, .btn:focus {
   outline: 0;
-  box-shadow: 0 0 0 0.25rem rgba(255, 200, 0, 0.25);
+  box-shadow: 0 0 0 0.25rem rgba(4, 102, 155, 0.25);
 }
 .btn:disabled, .btn.disabled, fieldset:disabled .btn {
   pointer-events: none;
   opacity: 0.65;
 }
 
+.btn-home {
+  border-color: #fff;
+  border-radius: 5px;
+  border-width: 4px;
+}
 .btn-primary {
   color: #fff;
   background-color: #00ccff;
-  border-color: #00ccff;
 }
 .btn-primary:hover {
   color: #fff;
   background-color: #01a4cd;
-  border-color: #01a4cd;
 }
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #fff;
   background-color: #00ccff;
-  border-color: #00ccff;
-  box-shadow: 0 0 0 0.25rem #00ccff;
 }
 .btn-check:checked + .btn-primary, .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active, .show > .btn-primary.dropdown-toggle {
   color: #fff;
   background-color: #00718d;
-  border-color: #004a5f;
 }
 .btn-check:checked + .btn-primary:focus, .btn-check:active + .btn-primary:focus, .btn-primary:active:focus, .btn-primary.active:focus, .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 0 0.25rem rgba(0, 25, 85, 0.5);
+  box-shadow: 0 0 0 0.25rem rgba(4, 102, 155, 0.25)
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
   background-color: #00ccff;
-  border-color: #00ccff;
 }
 
 .btn-secondary {
@@ -11432,10 +11431,17 @@ header.masthead .masthead-subheading {
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 header.masthead .masthead-heading {
-  font-size: 3.25rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 3.25rem;
   margin-bottom: 2rem;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.modal-title-text {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1rem;
+  margin-bottom: 0.5rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
@@ -11467,6 +11473,12 @@ header.masthead .masthead-heading {
     font-weight: 700;
     line-height: 4.5rem;
     margin-bottom: 4rem;
+  }
+  .modal-title-text {
+    font-size: 3.3rem;
+    font-weight: 700;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
   }
 }
 #portfolio .portfolio-item {

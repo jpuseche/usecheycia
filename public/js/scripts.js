@@ -13,8 +13,10 @@ class Header extends HTMLElement {
                         <li class="nav-item"><a class="nav-link" href="/">Inicio</a></li>
                         <li class="nav-item"><a class="nav-link" href="/services">Servicios</a></li>
                         <li class="nav-item"><a class="nav-link" href="/products">Productos</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/about-us">Nosotros</a></li>
-                        <li class="nav-item"><a class="nav-link" href="/contact">Contactenos</a></li>
+                        <!--
+                            <li class="nav-item"><a class="nav-link" href="#">Nosotros</a></li>
+                        -->
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/usecheycompania/?igshid=NmE0MzVhZDY%3D">Contactenos</a></li>
                     </ul>
                 </div>
             </div>
@@ -30,12 +32,12 @@ class Modal extends HTMLElement {
             <div class="modal-dialog">
                 <div class="modal-content">
                     <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="text-uppercase text-center modal-title-text">${this.getAttribute("modal-title")}</div>
                     <div class="container">
                         <div class="row justify-content-center">
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase text-center">${this.getAttribute("modal-title")}</h2>
                                     <img class="img-fluid d-block mx-auto modal-image" src="${this.getAttribute("modal-image")}" alt="..." />
                                     ${this.getAttribute("modal-data")}
                                 </div>
@@ -59,14 +61,14 @@ class Footer extends HTMLElement {
                 <div class="row align-items-center">
                     <div class="col-lg-4 text-lg-start">Copyright &copy; Useche & cia `+ year +`</div>
                     <div class="col-lg-4 my-3 my-lg-0">
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2" href="https://www.instagram.com/usecheycompania/?igshid=NmE0MzVhZDY%3D" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
-                        <a class="btn btn-dark btn-social mx-2" href="#!" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
                     </div>
-                    <div class="col-lg-4 text-lg-end">
-                        <a class="link-dark text-decoration-none me-3" href="#!">Política de Privacidad</a>
-                        <a class="link-dark text-decoration-none" href="#!">Términos de Uso</a>
-                    </div>
+                    <!--
+                        <div class="col-lg-4 text-lg-end">
+                            <a class="link-dark text-decoration-none me-3" href="#!">Política de Privacidad</a>
+                            <a class="link-dark text-decoration-none" href="#!">Términos de Uso</a>
+                        </div>
+                    -->
                 </div>
             </div>
         </footer>
