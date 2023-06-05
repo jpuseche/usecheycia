@@ -1,12 +1,12 @@
 const express = require('express');
-const path = require('path')
+const path = require('path');
 const app = express();
-const port = 3000;
+const port = 5000;
 
 app.use(express.static('public'))
 
 app.get('/', function (req, res) {
-    res.sendFile('views/home.html', {root: __dirname});
+    res.sendFile('views/home.html', {root: __dirname });
   })
 
 app.get('/services', function (req, res) {
