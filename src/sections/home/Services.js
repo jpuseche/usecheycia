@@ -9,37 +9,37 @@ function Services() {
                 <div class="grid grid-cols-3 gap-10 place-items-center my-16">
                     <div class="flex flex-col items-center">
                         <a class="flex justify-center bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-full w-[130px] h-[130px]" href="/services">
-                            <img class="text-white" src={publicDir + "/img/icons/flask-solid.svg"} width="50" heigth="50"></img>
+                            <img class="text-white" src={publicDir + "/img/icons/flask-solid.svg"} alt="flask-solid" width="50" heigth="50"></img>
                         </a>
                         <span class="my-3 pt-4 text-2xl font-semibold">Agua Osmotizada</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <a class="flex justify-center bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-full w-[130px] h-[130px]" href="/services">
-                            <img class="text-white" src={publicDir + "/img/icons/filter-solid.svg"} width="50" heigth="50"></img>
+                            <img class="text-white" src={publicDir + "/img/icons/filter-solid.svg"} alt="filter-solid" width="50" heigth="50"></img>
                         </a>
                         <span class="my-3 pt-4 text-2xl font-semibold">Filtración Y Suavización</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <a class="flex justify-center bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-full w-[130px] h-[130px]" href="/services">
-                            <img class="text-white" src={publicDir + "/img/icons/droplet-solid.svg"} width="40" heigth="40"></img>
+                            <img class="text-white" src={publicDir + "/img/icons/droplet-solid.svg"} alt="droplet-solid" width="40" heigth="40"></img>
                         </a>
                         <span class="my-3 pt-4 text-2xl font-semibold">Clarificación</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <a class="flex justify-center bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-full w-[130px] h-[130px]" href="/services">
-                            <img class="text-white" src={publicDir + "/img/icons/vial-solid.svg"} width="50" heigth="50"></img>
+                            <img class="text-white" src={publicDir + "/img/icons/vial-solid.svg"} alt="vial-solid" width="50" heigth="50"></img>
                         </a>
                         <span class="my-3 pt-4 text-2xl font-semibold">Limpieza Química</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <a class="flex justify-center bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-full w-[130px] h-[130px]" href="/services">
-                            <img class="text-white" src={publicDir + "/img/icons/temperature-arrow-down-solid.svg"} width="50" heigth="50"></img>
+                            <img class="text-white" src={publicDir + "/img/icons/temperature-arrow-down-solid.svg"} alt="temperature-arrow-down-solid" width="60" heigth="60"></img>
                         </a>
                         <span class="my-3 pt-4 text-2xl font-semibold">Enfriamiento</span>
                     </div>
                     <div class="flex flex-col items-center">
                         <a class="flex justify-center bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-full w-[130px] h-[130px]" href="/services">
-                            <img class="text-white" src={publicDir + "/img/icons/temperature-arrow-up-solid.svg"} width="50" heigth="50"></img>
+                            <img class="text-white" src={publicDir + "/img/icons/temperature-arrow-up-solid.svg"} alt="temperature-arrow-up-solid" width="60" heigth="60"></img>
                         </a>
                         <span class="my-3 pt-4 text-2xl font-semibold">Calderas</span>
                     </div>
