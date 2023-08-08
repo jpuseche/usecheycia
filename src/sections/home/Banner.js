@@ -13,7 +13,7 @@ function Banner() {
                         </div>
                     </div>
                     <div className="w-[50%]">
-                        <img className="rotating" src={publicDir + "/img/whirlpool.png"} alt="whirlpool image"></img>
+                        <img className="rotating" src={publicDir + "/img/whirlpool.png"} alt="remolino de agua"></img>
                     </div>
                 </div>
             </div>

@@ -1,5 +1,6 @@
 import Header from "./partials/Header.js"
 import Home from "./views/Home.js"
+import Service from "./views/Service.js"
 import Footer from "./partials/Footer.js"
 
 import {
@@ -16,6 +17,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Home/>}/>
+          <Route path="/desalinated-water" element={<Service/>}/>
         </Routes>
         <Footer/>
       </div>
