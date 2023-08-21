@@ -17,7 +17,7 @@ function App() {
         <Header/>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/desalinated-water" element={<Service/>}/>
+          <Route path="/services/:id" element={<Service/>}/>
         </Routes>
         <Footer/>
       </div>
