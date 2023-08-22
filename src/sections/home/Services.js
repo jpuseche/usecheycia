@@ -14,31 +14,31 @@ function Services() {
                         <span className="my-3 pt-4 text-2xl font-semibold">Agua Osmotizada</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services">
+                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services/filtration-and-softening">
                             <img className="text-white" src={publicDir + "/img/icons/filter-solid.svg"} alt="filtro" width="50" heigth="50"></img>
                         </a>
                         <span className="my-3 pt-4 text-2xl font-semibold">Filtración Y Suavización</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services">
+                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services/clarification">
                             <img className="text-white" src={publicDir + "/img/icons/droplet-solid.svg"} alt="gota de agua" width="40" heigth="40"></img>
                         </a>
                         <span className="my-3 pt-4 text-2xl font-semibold">Clarificación</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services">
+                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services/chemical-cleaning">
                             <img className="text-white" src={publicDir + "/img/icons/vial-solid.svg"} alt="frasco químico" width="50" heigth="50"></img>
                         </a>
                         <span className="my-3 pt-4 text-2xl font-semibold">Limpieza Química</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services">
+                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services/cooling">
                             <img className="text-white" src={publicDir + "/img/icons/temperature-arrow-down-solid.svg"} alt="temperatura en descenso" width="60" heigth="60"></img>
                         </a>
                         <span className="my-3 pt-4 text-2xl font-semibold">Enfriamiento</span>
                     </div>
                     <div className="flex flex-col items-center">
-                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services">
+                        <a className="flex justify-center bg-[#1cbef0] hover:bg-[#3994af] transition rounded-full w-[130px] h-[130px]" href="/services/boilers">
                             <img className="text-white" src={publicDir + "/img/icons/temperature-arrow-up-solid.svg"} alt="temperatura en aumento" width="60" heigth="60"></img>
                         </a>
                         <span className="my-3 pt-4 text-2xl font-semibold">Calderas</span>

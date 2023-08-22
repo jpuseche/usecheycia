@@ -7,7 +7,7 @@ function Header() {
                 <a className="w-1/2" href="/"><img className="h-8" src={publicDir + "/img/header-title.png"} alt="titulo encabezado" /></a>
                 <div className="flex flex-row text-lg justify-end text-white gap-10 w-1/2">
                     <a className="hover:text-[#1cbef0] transition" href="/">Inicio</a>
-                    <a className="hover:text-[#1cbef0] transition" href="/services">Servicios</a>
+                    <a className="hover:text-[#1cbef0] transition" href="/services/desalinated-water">Servicios</a>
                     <a className="hover:text-[#1cbef0] transition" href="/products">Productos</a>
                     <a className="hover:text-[#1cbef0] transition" href="https://www.instagram.com/usecheycompania/?igshid=NmE0MzVhZDY%3D">Contactenos</a>
                 </div>

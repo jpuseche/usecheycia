@@ -7,7 +7,7 @@ function Banner() {
                 <div className="flex items-center max-w-screen-xl">
                     <div className="w-[50%]">
                         <h1 className="text-6xl font-bold text-[#27374D] my-4">Expertos en tratamiento de agua</h1>
-                        <h2 className="text-4xl text-[#27374D] my-4">Servicios y Productos de calidad!</h2>
+                        <h2 className="text-3xl text-[#27374D] my-4">Servicios y Productos de calidad!</h2>
                         <div className="my-10">
                             <a className="text-xl bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-lg py-3 px-6 text-white" href="#services">Cuéntame mas</a>
                         </div>
