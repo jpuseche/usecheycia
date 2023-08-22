@@ -8,7 +8,7 @@ function Banner(props) {
                         <h2 className="text-3xl text-[#27374D] my-4">{props.subtitle}</h2>
                     </div>
                     <div className="w-[50%]">
-                        <img className="rounded-xl" width="640px" height="370px" src={props.imageSrc} alt={props.altSrc}></img>
+                        <img className="rounded-xl" width="640px" height="370px" src={props.imageSrc} alt={props.imageAlt}></img>
                     </div>
                 </div>
             </div>

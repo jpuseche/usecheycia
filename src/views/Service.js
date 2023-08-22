@@ -10,7 +10,7 @@ function Service() {
                 title={servicesMap[serviceID].title}
                 subtitle={servicesMap[serviceID].subtitle}
                 imageSrc={servicesMap[serviceID].imageSrc}
-                servicesMap={servicesMap[serviceID].imageAlt}
+                imageAlt={servicesMap[serviceID].imageAlt}
             />
             <Summary
                 title={servicesMap[serviceID].title}
