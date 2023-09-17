@@ -12,7 +12,7 @@ function Banner() {
                             <a className="text-xl bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-lg py-3 px-6 text-white" href="/services">Cuéntame mas</a>
                         </div>
                     </div>
-                    <div className="lg:w-[50%]">
+                    <div className="w-[70%] lg:w-[50%]">
                         <img className="rotating" src={publicDir + "/img/whirlpool.png"} alt="remolino de agua"></img>
                     </div>
                 </div>
