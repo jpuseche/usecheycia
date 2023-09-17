@@ -1,6 +1,6 @@
 const publicDir = process.env.PUBLIC_URL;
 
-function Services() {
+function Display() {
     return (
         <section id="services" className="flex justify-center py-16 text-[#27374D] px-5">
             <div className="max-w-screen-xl w-full">
@@ -49,4 +49,4 @@ function Services() {
     );
 };
 
-export default Services;
+export default Display;

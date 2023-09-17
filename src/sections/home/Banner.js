@@ -9,7 +9,7 @@ function Banner() {
                         <h1 className="text-4xl lg:text-6xl text-center lg:text-start font-bold text-[#27374D] my-4">Expertos en tratamiento de agua</h1>
                         <h2 className="text-2xl lg:text-3xl text-[#27374D] my-4">Servicios y Productos de calidad!</h2>
                         <div className="my-10">
-                            <a className="text-xl bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-lg py-3 px-6 text-white" href="#services">Cuéntame mas</a>
+                            <a className="text-xl bg-[#1cbef0] hover:bg-[#01a4cd] transition rounded-lg py-3 px-6 text-white" href="/services">Cuéntame mas</a>
                         </div>
                     </div>
                     <div className="lg:w-[50%]">

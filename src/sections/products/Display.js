@@ -1,8 +1,8 @@
 const publicDir = process.env.PUBLIC_URL;
 
-function Products() {
+function Display() {
     return (
-        <section id="products" className="flex justify-center py-16 bg-gradient-to-r from-[#2C74B3] to-[#0A2647] text-white px-5">
+        <section id="products" className="flex justify-center py-20 bg-gradient-to-r from-[#2C74B3] to-[#0A2647] text-white px-5">
             <div className="max-w-screen-xl w-full">
                 <h3 className="text-center text-2xl lg:text-4xl font-bold my-4">Productos</h3>
                 <h4 className="text-center text-md lg:text-xl">Nuestra Gama de Productos de Tratamiento de Agua para una Calidad Inigualable</h4>
@@ -49,4 +49,4 @@ function Products() {
     );
 };
 
-export default Products;
+export default Display;

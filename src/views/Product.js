@@ -1,5 +1,5 @@
-import Banner from "../sections/products/Banner.js";
-import Summary from "../sections/products/Summary.js";
+import Banner from "../sections/product/Banner.js";
+import Summary from "../sections/product/Summary.js";
 import productsMap from "../data/products-map.js";
 
 function Product() {

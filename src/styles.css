@@ -94,3 +94,81 @@ body {
 .rotating {
   -webkit-animation: rotating 80s linear infinite;
 }
+
+/* <------------------------------------ SIDEBAR STYLES ------------------------------------> */
+
+#page-wrap {
+  text-align: center;
+  overflow: auto;
+  top: 45%;
+  position: relative;
+}
+
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 30px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #1cbef0;
+}
+
+.bm-burger-button {
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+}
+
+@media (min-width: 767px) {
+  .bm-burger-button {
+    visibility: collapse;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #ffffff;
+}
+
+@media (min-width: 767px) {
+  .bm-menu-wrap {
+    visibility: collapse;
+  }
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #051222;
+  padding: 5em 3em 0;
+  font-size: 1.15em;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 767px) {
+  .bm-overlay {
+    visibility: collapse;
+  }
+}
+

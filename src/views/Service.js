@@ -1,5 +1,5 @@
-import Banner from "../sections/services/Banner.js";
-import Summary from "../sections/services/Summary.js";
+import Banner from "../sections/service/Banner.js";
+import Summary from "../sections/service/Summary.js";
 import servicesMap from "../data/services-map";
 
 function Service() {
