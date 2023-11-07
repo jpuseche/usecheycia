@@ -1,8 +1,6 @@
 function Gallery(props) {
-    let gridClass = "grid lg:grid-cols-" + String(props.gallery.length) + " grid-cols-1 max-w-screen-xl lg:px-24 px-20";
-    if (props.gallery.length >= 4) {
-        gridClass = "grid lg:grid-cols-4 grid-cols-1 max-w-screen-xl lg:px-0 px-20";
-    };
+    const cols = props.gallery.length
+    const gridClass = (props.gallery.length < 4) ? "grid lg:grid-cols-" + cols + " grid-cols-1 max-w-screen-xl lg:px-24 px-20" : "grid lg:grid-cols-4 grid-cols-1 max-w-screen-xl lg:px-0 px-20";
 
     return (
         <section className="flex flex-col pb-28 items-center lg:px-5">

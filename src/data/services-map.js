@@ -70,9 +70,9 @@ servicesMap["boilers"] = {
     gallery: [
         {key: 0, source: publicDir + "/img/services/domo_caldera_acuotubular.jpg", alt: "domo caldera acuotubular"},
         {key: 1, source: publicDir + "/img/services/caldera_pirotubular.jpg", alt: "caldera pirotubular"},
-        {key: 2, source: publicDir + "/img/services/caldera_pirotubular_interior.jpg", alt: "caldera pirotubular interior"},
+        {key: 2, source: publicDir + "/img/services/caldera_pirotubular_4.jpg", alt: "caldera pirotubular interior"},
         {key: 3, source: publicDir + "/img/services/caldera_pirotubular_2.jpg", alt: "caldera pirotubular 2"},
-        {key: 4, source: publicDir + "/img/services/caldera_pirotubular_interior_2.jpg", alt: "caldera pirotubular interior 2"},
+        {key: 4, source: publicDir + "/img/services/caldera_pirotubular_5.jpg", alt: "caldera pirotubular interior 2"},
         {key: 5, source: publicDir + "/img/services/caldera_pirotubular_3.jpg", alt: "caldera pirotubular 3"},
         {key: 6, source: publicDir + "/img/services/caldera_acuotubular.jpg", alt: "caldera acuotubular"},
         
