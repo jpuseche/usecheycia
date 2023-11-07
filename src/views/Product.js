@@ -5,7 +5,7 @@ import productsMap from "../data/products-map.js";
 function Product() {
     let productID = window.location.href.split("/").pop()
     return (
-        <div>
+        <>
             <Banner
                 title={productsMap[productID].title}
                 subtitle={productsMap[productID].subtitle}
@@ -16,7 +16,7 @@ function Product() {
                 title={productsMap[productID].title}
                 summary={productsMap[productID].summary}
             />
-        </div>
+        </>
     );
 };
 
