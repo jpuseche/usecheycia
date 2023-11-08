@@ -1,10 +1,10 @@
 ﻿# Usecheycia Website
 
-This is the repository for Useche & cia S.A.S.'s website hosted in a **production**. A company focused on providing services and selling products regarding water treatment.
+This is the repository for Useche & cia S.A.S.'s website hosted in a **production** environment. This is the website for a company focused on providing services and selling products regarding water treatment.
 
 # Production Site
 
-You can check the live website here: **[usecheycia.com](usecheycia.com)**
+You can check the live website hosted with cloudflare pages: **[usecheycia.com](usecheycia.com)**
 
 # Steps to run locally
 
