@@ -1,5 +1,5 @@
 function Gallery(props) {
-    const gridClass = (props.gallery.length < 4) ? "grid lg:grid-cols-3 grid-cols-1 max-w-screen-xl lg:px-24 px-20 gap-3" : "grid lg:grid-cols-4 grid-cols-1 max-w-screen-xl lg:px-0 px-20 gap-3";
+    const gridClass = (props.gallery.length < 4) ? "grid lg:grid-cols-3 grid-cols-1 max-w-screen-xl lg:px-24 px-14 gap-3" : "grid lg:grid-cols-4 grid-cols-1 max-w-screen-xl lg:px-0 px-14 gap-3";
 
     return (
         <section className="flex flex-col pb-28 items-center lg:px-5">
